@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    font-size: 15px;
+    color: #9eeff5;
+   }
+   
+   body {
+      background-image: url(/fundo-de-grade-de-neon.avif);
+   }
+   
+   .button {
+     background-image: url(/fundo-de-grade-de-neon.avif);
+     border-radius: 10px;
+     padding: 10px;
+     font-size: 20px;
+   }
+   
+   .botaoo {
+     padding: 10px;
+     gap: 10px; 
+     text-align: center;
+   }
+   
+   .titulo {
+     display: flex;
+     justify-content: center;
+     background-image: url(/fundo-de-grade-de-neon.avif);
+     min-height: 30PX;
+     gap: 20px;
+     padding: 5px;
+     font-size: 30px;
+   }
+   
+   .kanban {
+       display: flex;
+       justify-content: center;
+       min-height: 320PX;
+       gap: 10px;
+       padding: 10px;
+   }
+   
+   .column {
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+       padding: 10px;
+       min-width: 45%;
+       border-radius: 5px;
+       background-image: url(/fundo-de-grade-de-neon.avif);
+   }
+   
+   .item {
+       background-image: url(/peça\ de\ encaixe.jpg);
+       padding: 10px;
+       border-radius: 5px;
+       background-size: cover;
+   }
+   
+   .dragging {
+       opacity: 0.5;
+   }
+   
+   .button:hover {
+     color: #e6f41a;
+   }
+   
+   
+   @media (max-width: 500px) {
+   .titulo {font-size: 20px;  
+   
+       }
+   }
+   
+   
+   @media (max-width: 500px) {  
+   *{ font-size: 10px;
+   
+       }
+   }
