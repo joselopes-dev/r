@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="simbolopagi.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <title>Formatação de computador</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="titulo">Qual a sequência dos livros?</div>
+
+  <div class="botaoo">
+     <form class="button"> 
+      <a href= "index2.html"><input class="button" type="button" value="Avançar"  onCLick="history.forward()"></a>
+
+       <!--<input class="button" type="button" value="Atualizar" onClick="history.go(0)">--> 
+    </form>
+  </div>
+
+
+    <div class="kanban">
+            <div class="column">
+
+                <div id="draggable-1" class="item" draggable="true" ondragstart="onDragStart(event);">Números</div>
+                <div id="draggable-2" class="item" draggable="true" ondragstart="onDragStart(event);">Levítico</div>
+                <div id="draggable-3" class="item" draggable="true" ondragstart="onDragStart(event);">Êxodo</div>
+                <div id="draggable-4" class="item" draggable="true" ondragstart="onDragStart(event);">Deuteronômio</div>
+                <div id="draggable-5" class="item" draggable="true" ondragstart="onDragStart(event);">Gênesis</div>
+   
+            </div> 
+
+        <div class="column">
+          <div class="item" draggable="">Livros</div>
+        </div>
+       </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
